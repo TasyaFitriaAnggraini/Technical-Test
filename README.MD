@@ -1,5 +1,8 @@
 # Link Documentation - Technical Test SimpliDOTs TMBd
 
+## Tasya Fitria Anggraini - QA
+Melakukan Manual Testing & Automation Testing Menggunakan Cypress
+
 ## Documentation Report
 Acceptance Criteria, Test Case & Test Result, Bug Monitoring
 https://docs.google.com/spreadsheets/d/1OAsacNS9k5HL54feiPyUB3e46FqBP9qHHIFuwOAN5Yw/edit?usp=sharing 
