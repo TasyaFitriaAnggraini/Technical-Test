@@ -1,0 +1,34 @@
+{
+  "name": "cypress-automation-tmbd",
+  "version": "1.0.0",
+  "description": "Technical Test QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Tasya Fitria Anggraini",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
+    "cypress": "^13.15.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-slow-down": "^1.3.1",
+    "ts-loader": "^9.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepdifinitions": false,
+    "stepDefinitions": "cypress/integration/stepDefinitions/*.js",
+    "html": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/cucumber-report.html"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-ndjson/cucumber-report.ndjson"
+    }
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.13.0"
+  }
+}
