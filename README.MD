@@ -12,3 +12,6 @@ https://docs.google.com/document/d/1pF2ngLCQ2p1rKVXGtRBwGuTiZy4EXONb/edit?usp=sh
 
 ## Documentation Record Manual Testing
 https://drive.google.com/drive/folders/1QmvJPPHJnie6gmZVlJzUG-FnFgxtxY87?usp=sharing
+
+## Link Penjelasan Manual & Automation Testing
+https://youtu.be/jW8ixtq4V1Q
